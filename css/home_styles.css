@@ -1,0 +1,92 @@
+/* ---------------------------------------------------------- HOME PAGE ---------------------------------------------------------- */
+.background {
+    background-color: rgb(30, 58, 61);
+  }
+
+.title {
+    position: relative;
+    
+    font-size: 30px;
+    font-family: Verdana, sans-serif; 
+    text-align: center;
+    color: rgb(255, 253, 228);
+}
+
+.main_pic {
+    float:left;
+}
+
+.bio {
+    float: left;
+    color:rgb(255, 253, 228); 
+    font-size:20px;
+}
+
+/* --------------------------------------------------------- NAVIGATION BUTTONS --------------------------------------------------------- */
+.box {
+    display: block;
+    width: 110px;
+    padding: 5px;
+    border: 2px solid rgb(255, 253, 228);
+    border-radius: 100px;
+    margin: 1px auto;
+
+    background-color: rgb(255, 253, 228);
+    text-align: center;
+    
+    
+    color: rgb(40, 75, 80);
+    font-size: 20px;
+    font-family: Tahoma;
+    text-decoration: none; /* Remove underline from links */
+}
+
+.box:hover { /* Hover effect for box */
+    background-color: rgb(60, 105, 110);
+    border-color: rgb(255, 253, 228);
+}
+
+.projects {
+    position: absolute;
+    top: 1px;
+    right: 375px;
+
+    margin: 30px auto;
+    text-align: center;
+}
+
+.hobbies {
+    position: absolute;
+    top: 1px;
+    right: 200px;
+
+    margin: 30px auto;
+    text-align: center;
+}
+
+.contact {
+    position: absolute;
+    top: 1px;
+    right: 25px;
+    
+    margin: 30px auto;
+    text-align: center;
+}
+
+/* --------------------------------------------------------- SOCIALS BUTTONS --------------------------------------------------------- */
+.github {
+    position: absolute;
+    bottom: 10px; /* Distance from the top of the page */
+    right: 10px; /* Centering horizontally doesn't need 'px' */
+}
+
+.linkedin {
+    position: absolute;
+    bottom: 10px; /* Distance from the top of the page */
+    right: 55px; /* Centering horizontally doesn't need 'px' */
+}
+
+.icon{
+    width:50px;
+    height:50px;
+}
