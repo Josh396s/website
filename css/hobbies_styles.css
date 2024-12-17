@@ -25,8 +25,10 @@
     }
 
     .gym_desc {
-        font-size: 25px;
+        font-size: 30px;
+        font-family: Arial, sans-serif;
         line-height: 1.5;
+
         margin: 0;
         float: left;
     }
@@ -49,32 +51,50 @@
 }
 
 /* --------------------------------------------------------- E-SPORTS SECTION --------------------------------------------------------- */
-.esports{
+.esports {
     .esports_title {
         font-size: 40px;
         margin-top: 50px;
-        margin-bottom: 1px;
-        clear: left;
+        margin-bottom: 10px;
     }
+
+    .esports_content {
+        display: flex; /* Align text and image horizontally */
+        align-items: flex-start; /* Align items to the top */
+        gap: 50px; /* Space between text and image */
+    }
+    
     .esports_desc {
-        font-size: 18px;
+        font-size: 30px;
         font-family: Arial, sans-serif;
-        line-height: 1.5; /* Optional for better readability */
+        line-height: 1.5; /* Better readability */
+
+        margin-top: 0px;
+        margin-bottom: 0px;
+
+        flex: 1; /* Allows text to take up remaining space */
     }
     
     .esports_jersey {
-        float: right; /* Aligns the image to the right of the text */
-        margin-left: 20px; /* Adds space between the image and the text */
-        margin-bottom: 10px; /* Optional: Adds space below the image */
-        width: 300px; /* Adjust the width */
-        height: auto; /* Maintain the aspect ratio */
-        border-radius: 8px; /* Optional: Add rounded corners */
-        border: 2px solid rgb(255, 253, 228); /* Optional: Add a border */
+        width: 225px;
+        height: auto; 
+
+        margin-top: 0px;
+        margin-right: 12px;
+
+        border: 2px solid rgb(255, 253, 228);
+        border-radius: 8px;
     }
-    
 
+    .overwatch_highlights {
+        width: 925px;
+        height: auto;
 
+        margin-left: 10px;
+        margin-top: 10px;
+    }
 }
+
 /* --------------------------------------------------------- NAVIGATION BUTTONS --------------------------------------------------------- */
 .box {
     display: block;
